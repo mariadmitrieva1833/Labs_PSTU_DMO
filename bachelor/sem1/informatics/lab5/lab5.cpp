@@ -15,6 +15,7 @@ void sort(int x, int *a)
         a[j+1] = k;
     }
 }
+
 int CHECK(int x, int a[])
 {
     bool isAsc=true;
@@ -40,7 +41,6 @@ int CHECK(int x, int a[])
         return -1;
     }
     return 0;
-
 }
 
 int main()
